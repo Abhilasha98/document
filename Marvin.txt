@@ -1,0 +1,188 @@
+jihy1.ssh-keygen -t rsa -b 2048 -C "amruta.pawar@ul.com"
+then paste the key from .ssh file as id_rsa
+and go to the gitlab -->edit profile -->SSH key and paste there this key
+2.git config --global user.email "amruta.pawar@ul.com"
+3.git config --global user.name "amruta pawar"
+4.git config --list
+5.copy the setting.xml in local c-user-amruta-.m2 open and paste the setting.xml file
+6. copy script.sh in created folader(marvin)
+
+1. import projects (api-services) in IntelliJ
+2. mvn clean install -DSkipTests
+3. go to um-webapp folder and pdma-webapp folder, run this commands
+docker-compose down -v
+docker-compose up -d --remove-orphans
+4. go to um folder, pdma folder and run ./dev-migrate.sh script
+5. Start colab-app in IntelliJ
+6. start pdma-app in IntelliJ
+7. copy package.json, package-lock.json, .npmc (from downloads folder) into ui folder of api-services, then run below command: npm run start-pdma-v2
+8. open the url given in the console with /login appended at the end
+9. give any email to register
+10. open http://localhost:8025 and verify the email, start assessment from the email body.
+11. if chrome doesn't work, then use this in RUN:
+chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
+http://localhost:5001/pdma-v2/login
+.....................................................................................
+cd .. -> back to one directory
+cd-> change the directiry
+npm version
+netstat -ano | findstr 8080
+taskkill /F /PID 15872
+1.PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true npm install puppeteer or npm install(7th step)
+2.npm cache clean
+3.npm cache clean --force
+4.npm cache rm
+5.git status
+6.npm config set strict-ssl false
+7.npm install or npm clean-installclclear
+8.netstat -aon | find /i "listening"
+................................................................................
+once you start your project do this steps
+1.go to um-webapp folder and pdma-webapp folder, run this commands
+docker-compose down -v
+docker-compose up -d --remove-orphans
+2.$/api-services/apps/um: ./dev-migrate.sh script
+
+3.$/apps/pdma: ./dev-migrate.sh script
+4.$apps/ui: npm run start-pdma-v2
+5.docker start the um-webapp and (pdma-app)
+6.start the intellij and run the colab-app and fwc-app(pdma-app)
+7.http://localhost:5001/pdma-v2/login
+8.http://localhost:8025 -> open email
+chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security-> open run in windows and paste it.
+https://test.nonprod.safecyber.com/MaturityPath/projects/details/91 -> notify me when ready
+----------------------------------------------------------
+how to add to remote repository in gitlab
+ git checkout feature/MRV-7552-7633-switch to another branch
+git checkout -b feature/MRV-8118-8142-switch  and create  another branch
+git branch -D feature/MRV-9769-9768 --delete branch
+
+$ git push
+git push --set-upstream origin feature/MRV-7552-7633 -->uptodate check
+git status
+git add ui/project/ui-pdma-v2/src/app/layout/dashboard/dashboard.component.html link or git add .
+git commit -m "updated for MRV-7349"
+git push origin develop:feature/MRV-7552-7633 -->if you are writing code in develop then use this command
+git pull
+GIT PUSH
+git status
+----------------------------------------------------------------
+
+--------------------
+Already exit branch feature/MRV-7552-7633 then use this command to push code to gitlab
+git status
+git add
+git status
+git commit -m "updated for MRV-7349"
+git push
+-----------------------------------
+or if you are working in develop branch and create a branch like this
+1.git status
+2.git diff ui/projects/ui-fwc/src/app/layout/devices/device-component.scss( paste from git status changes)
+3.git add .
+4.git status
+5.git commit -m "MRV-7594 Assessment Remove Commented Code"
+git checkout -b feature/MRV-7600-7793
+6.git push origin develop:feature/MRV-7594
+next gitlab create branch then do merge request
+-----------------------------------------
+sonarquebe error then again come to develop
+git pull --rebase origin develop
+git push origin develop:feature/MRV-7552 -f
+--------------------------------
+How to rebase
+git checkout branch feature/7566
+git rebase develop
+git pull
+git status
+changes sikidre git push
+-------------------------------
+if you want to work in someone branch do like this
+git checkout for their branch name
+git fetch
+git pull
+[10:19 AM] Bathina, Srirama Soujanya
+PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true npm install puppeteer
+
+
+git status
+git pull
+git status
+git add
+git commit
+git push origin feature/MRV-6326-7798
+----------------------------------------------
+These can done when we need to current code into workplaces
+1.git status
+2.git stash --save the commit changes
+3.git fetch --all
+4.git reset --hard origin/develop
+5.git log
+feature/MRV-6329
+----------------------------------------------------
+when another screen open in gitbash do this
+Carefully do this
+1. Press ESC key
+2. Type colon (: key)
+3. Type 'wq' (in lowercase)
+4. Press enter
+
+----------------------------------------------------
+create the branch in gitlab from working branch
+git status
+git stash  =It remove all the changed files in your local.
+git status
+git stash pop  = It will add all your changes to your local
+git stash
+git fetch
+git checkout newly creatd branch
+git pull
+git stash pop
+git add .
+git status
+git commit -m ""
+git push
+-------------
+write any front end code then run this command to see any error in pipeline
+npm run lint "./projects/ui-pdma-v2/**/*.ts"
+npm run test ui-pdma-v2 -- --watch=true --source-map=false --code-coverage
+-------------------------
+28commit behind target branch
+git pull origin targetbranch
+----------------------------------------
+
+PDMA
+Administrator:evaluser@niceteeshop.com
+!234Asdf
+projectMnager-:
+zukowski@gmailvn.net
+!234Asdf
+
+git pull --rebase origin develop_teamhelium
+
+
+-------------------------------------
+PDMAV2
+MASTER  CREDENTIALS
+login id : generic-pdma-master@ul.com
+Pass code : Welcome@01!
+ projectmanager: pm1@ul.com  Abhi@1998
+evaluator   username: sahana@ul.com
+password: Abhi@1998
+
+projectMnager-:
+sanh@ul.com
+Abhi@123
+
+--------------
+
+
+A graphical representation of the Certification Readiness Score is provided below
+                        ${@certification_linear_diagram}
+
+
+
+
+
+
+
