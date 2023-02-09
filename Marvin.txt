@@ -151,34 +151,12 @@ npm run test ui-pdma-v2 -- --watch=true --source-map=false --code-coverage
 git pull origin targetbranch
 ----------------------------------------
 
-PDMA
-Administrator:evaluser@niceteeshop.com
-!234Asdf
-projectMnager-:
-zukowski@gmailvn.net
-!234Asdf
 
 git pull --rebase origin develop_teamhelium
 
 
 -------------------------------------
-PDMAV2
-MASTER  CREDENTIALS
-login id : generic-pdma-master@ul.com
-Pass code : Welcome@01!
- projectmanager: pm1@ul.com  Abhi@1998
-evaluator   username: sahana@ul.com
-password: Abhi@1998
 
-projectMnager-:
-sanh@ul.com
-Abhi@123
-
---------------
-
-
-A graphical representation of the Certification Readiness Score is provided below
-                        ${@certification_linear_diagram}
 
 
 
